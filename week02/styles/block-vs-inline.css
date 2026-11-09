@@ -9,7 +9,7 @@ body {
 }
 
 p,
-div {
+span {
     background-color: beige;
     margin: 1rem;
     padding: 1rem;
