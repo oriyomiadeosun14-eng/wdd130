@@ -1,26 +1,30 @@
-nav{
-    background-color: darkblue;
-    padding: 10px;
+:root {
+  --primary-color: darkblue;
+  --small-padding: 10px;
+}
+nav {
+  background-color: var(--primary-color);
+  padding: var(--small-padding);
 }
 
 nav a {
-    color: white;
-    display: block;
-    padding: 20px;
+  color: white;
+  display: block;
+  padding: 20px;
 }
 
 h1 {
-    color: darkblue;
+  color: var(--primary-color);
 }
 
-img{
-    width: 150px;
-    height: auto;
-    border: 1px solid black;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
+img {
+  width: 150px;
+  height: auto;
+  border: 1px solid black;
+  padding: 2px;
+  box-shadow: 0 0 30px gray;
 }
 
 p {
-    padding: 10px;
+  padding: var(--small-padding);
 }
