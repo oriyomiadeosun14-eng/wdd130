@@ -3,22 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-:root {
-  --primary-color: darkblue;
-  --small-padding: 10px;
-}
-main {
-  max-width: 840px;
-}
-nav {
-  background-color: var(--primary-color);
-  padding: var(--small-padding);
-}
 
-nav a {
-  color: white;
-  display: block;
-  padding: 20px;
+main {
+  max-width: 640px;
 }
 
 h1 {
@@ -28,27 +15,28 @@ h1 {
 img {
   width: 150px;
   height: auto;
-  border: 1px solid black;
-  padding: 2px;
-  box-shadow: 0 0 30px gray;
 }
 
 aside {
-  width: 20rem;
-  margin: 1rem;
-  border: 1px solid rgb(0 0 0 / 0.2);
-  padding: 1rem;
-  background-color: #eee;
-  color: #333;
-  text-align: center;
+  width: 300px;
+  margin: 10px 0;
+  position: relative;
 }
 aside img {
-  width: 200px;
+  width: 100%;
   height: auto;
+  display: block;
+}
+aside h2 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 3rem;
 }
 main img {
   width: 150px;
   height: auto;
+  float: right;
 }
 p {
   padding: 0;
@@ -64,7 +52,7 @@ footer {
 .box {
   border: 1px solid #ccc;
   padding: 1rem;
-  background-color: burlywood;
+  background-color: rgb(243, 243, 243);
   color: black;
   margin: 10px 0;
 }
